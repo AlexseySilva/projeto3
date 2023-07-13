@@ -1,60 +1,189 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Web</title>
 </head>
+
 <body>
-    <h1>Web</h1>
-    <hr>
-    <section>
+    <h1 id="voltar">Web</h1>
+    <div align="right" style="margin-right: 10px; background-color: red;">
+        <a href="#estrutura" style="text-decoration: none; color:black; font-size:20px;">Estrutura e funcionamento da internet</a></li> |
+        <a href="#conceito" style="text-decoration: none; color:black; font-size:20px;">Conceitos e terminologias da web</a></li> |
+        <a href="#funcionamento" style="text-decoration: none; color:black; font-size:20px;">Estrutura e funcionamento</a></li> |
+        <a href="index.html" style="text-decoration: none; color:black; font-size:20px;">Inicio</a></li>
+    </div>
+    <section id="estrutura">
         <article>
-            <h2></h2>
-            <p>
+            <h2>Estrutura e funcionamento da internet</h2>
+            <p><img src="http://www.edumed.org.br/cursos/biblioteca/internet.GIF" alt="" width="150" height="150" align="left">
+                A Internet é uma rede de computadores mundial de acesso de público ilimitado que utiliza uma
+                infra-estrutura de telecomunicações homogênea. Atualmente qualquer pessoa física ou jurídica pode
+                participar da Internet, incluindo empresas privadas, governos, escolas e organizações
+                não-governamentais. Os requisitos são possuir um computador, um software compatível com a Internet e uma
+                conexão por telefone com um provedor de acesso à Internet. Quem desejar ter um computador
+                permanentemente conectado a rede deverá possuir um registro no órgão regulador da Internet no seu país.
+                Cada computador na rede possui um único endereço para acesso. A comunicação entre computadores da rede é
+                feita através do protocolo TCP/IP que gerencia e encaminha mensagens de dados entre os computadores. O
+                TCP/IP utiliza a tecnologia de comutação de pacotes – packet switching.
+            </p>
+        </article>
+    </section>
+    <a id="buttonVoltar" href="#voltar">Voltar</a>
+    <section id="conceito">
+        <article>
+            <h2>Conceitos e terminologias da web</h2>
+            <p><img src="https://thumbs.dreamstime.com/z/sinal-de-texto-mostrando-terminologia-termos-conceito-internet-utilizados-com-aplicação-técnica-específica-em-estudos-legenda-272520548.jpg?w=992" alt="" width="150" height="150" align="left">
+                A terminologia e a informática não são independentes uma da outra. Desde 1960, em países desenvolvidos e
+                com grande tradição em pesquisa terminológica, os dois campos de estudo estão ligados de forma a
+                facilitar o armazenamento e a difusão de dados terminológicos na elaboração de grandes bases de dados
+                especializados, denominados bancos de terminologia (1). A integração entre as duas áreas é tal que se
+                cunhou o termo terminótica, dando origem a um novo conceito e inaugurando um novo paradigma metodológico
+                nas pesquisas terminológicas.
 
-            </p>
-        </article>
-    </section>
-    <section>
-        <article>
-            <h2></h2>
-            <p>
+                A contribuição advinda da informática começa de fato a aparecer nas pesquisas terminológicas no Brasil
+                nos últimos dez anos. O crescimento de estudos e pesquisas na área de lingüística computacional e
+                lingüística de corpus e o conseqüente aprimoramento e desenvolvimento de ferramentas computacionais
+                voltadas para o processamento de língua natural (PLN) do português passam a interferir diretamente na
+                prática terminográfica.
 
-            </p>
-        </article>
-    </section>
-    <section>
-        <article>
-            <h2></h2>
-            <p>
+                Nesse sentido, a terminologia descritiva de viés lingüístico começa a ter um amplo desenvolvimento, já
+                que a possibilidade de lidar com grandes corpora permite a observação e descrição de fenômenos
+                lingüísticos recorrentes antes impossível de perceber, dado que os procedimentos de observação e
+                descrição contavam apenas com recursos manuais.
 
-            </p>
-        </article>
-    </section>
-    <section>
-        <article>
-            <h2></h2>
-            <p></p>
-        </article>
-    </section>
-    <section>
-        <article>
-            <h2></h2>
-            <p>
+                Entendemos que fazer terminologia na era da informática significa criar um conjunto de procedimento
+                automatizados ou semi-automatizados que dêem suporte às tarefas envolvidas no trabalho terminológico,
+                quais sejam: 1. criação de corpora descartáveis; 2. extração automática de candidatos a termos desses
+                corpora; 3. inserção dos termos numa ontologia (mapa conceitual); 4. elaboração e edição de fichas
+                terminológicas; 5. elaboração e constante atualização da base definicional (2); 6. elaboração de
+                definições; 7. edição de verbetes, 8. difusão dos dados para intercâmbio com outras aplicações ou
+                usuários.
 
+                Nosso objetivo aqui é apresentar ambientes e/ou ferramentas que dão suporte às tarefas citadas acima, se
+                não a todas, pelo menos a algumas delas e, sempre que possível, apontaremos os trabalhos referentes ao
+                português.
+
+                Desenvolvido pela Faculdade de Letras da Universidade do Porto (FLUP), o Corpógrafo (3, 4, 5) é um
+                gestor de corpus que se encontra, atualmente, na versão 3.0 e é otimizado para pesquisas terminológicas,
+                isto é, para a extração de termos e sua organização em bases de dados. Fornece um ambiente web integrado
+                para o manejo de corpus, disponibilizando ferramentas para processamento de corpus. Dentre as
+                ferramentas que possui, estão concordanciadores, contadores de freqüência e, também, ferramentas de
+                pré-processamento de corpus, como as de limpeza e sentenciadores. Toda funcionalidade do corpógrafo está
+                associada a um dos quatro ambientes de trabalho ou módulos: gestor de arquivos e de corpus, pesquisa em
+                corpus, centro de conhecimento, centro de documentação, o que diminui a sobrecarga ao se trabalhar no
+                ambiente. Nessa nova versão, o corpógrafo dá um bom suporte para a difusão dos produtos terminológicos,
+                permitindo que se exporte bases terminológicas no formato XML para serem usadas em outras aplicações;
+                que se gerem glossários em HTML usando uma base terminológica, além de se exportar o próprio corpus em
+                XML para ser usado em outras aplicações ou por outros usuários.
             </p>
         </article>
     </section>
-    <section>
+    <a id="buttonVoltar" href="#voltar">Voltar</a>
+    <section id="funcionamento">
         <article>
-            <h2></h2>
-            <p>
-                
+            <h2>Estrutura e funcionamento</h2>
+            <p><img src="https://viasat.brightspotgocdn.com/dims4/default/3855fef/2147483647/strip/true/crop/1342x756+0+68/resize/2000x1126!/format/webp/quality/90/?url=https%3A%2F%2Fbrightspot-go-k1-viasat.s3.amazonaws.com%2Fbrightspot%2F72%2Fa1%2F12509bebc21cf85904a06765550d%2F1066870-how-it-works-portuguese-001-1.gif" alt="" width="150" height="150" align="left">
+                Para começar, você precisa entender que internet e World Wide Web (WWW) não são a mesma coisa. A
+                internet é uma estrutura física, enquanto a WWW é um protocolo que usa essa estrutura física para a
+                troca de dados.
+
+                O que é a internet, afinal? É uma rede de computadores. Ela é constituída por canais de comunicação com
+                ou sem fio e elementos de comunicação. Em outras palavras, é a estrutura que possibilita que
+                computadores e outros dispositivos troquem dados entre si.
+
+                Enquanto isso, a WWW é o protocolo mais utilizado para a troca de dados atualmente, mas não é o único.
+                Aliás, a internet existe desde os anos 1960, mas a WWW só foi formalizada em 1990.
+
+                Redes ligadas a redes
+                Para entender melhor o conceito de internet, você pode pensar nela como uma série de pequenas redes
+                conectadas entre si, formando uma rede maior.
+
+                Por exemplo, na sua casa você tem alguns dispositivos: computadores, notebooks, tablets. Esses
+                dispositivos podem ser conectados, formando uma rede local. Dessa forma, eles conseguem trocar dados
+                entre si.
+
+                Porém, se você quiser trocar dados com seu amigo que mora em outro estado, precisa que os seus
+                dispositivos da sua rede local consigam se comunicar com os dispositivos da rede local desse amigo. Ou
+                seja, precisa ligar as duas redes.
+
+                É aí que entra a internet, e o papel do provedor de internet é oferecer essa conexão. Isso é feito por
+                meio de uma tecnologia chamada TCP/IP. Essa tecnologia atribui um endereço IP aos dispositivos, que
+                passam a ser um ponto dentro de uma rede muito maior.
+
+                Como a internet chega à sua casa
+                Para que a internet chegue até sua casa, são necessários quatro passos.
+
+                O ponto de partida são os backbones, que distribuem a informação pela rede usando a tecnologia TCP/IP
+                para determinar aonde os dados devem ir.
+
+                Em seguida, a internet chega aos provedores de acesso, que contratam a conexão com os backbones e
+                distribuem para os provedores de serviço.
+
+                Os provedores de serviço, por sua vez, distribuem a conexão para os usuários finais, por exemplo,
+                através de fibra ótica.
+
+                Finalmente, a conexão de internet chega aos dispositivos dos usuários finais.
+
+                Vale a pena lembrar que esse caminho tem duas mãos. A troca de dados ocorre tanto dos backbones para os
+                usuários quanto dos usuários para os backbones. Por exemplo, quando você faz o upload de uma foto nas
+                redes sociais, é você quem está enviando dados para os backbones.
+
+                Importância do endereço IP
+                Os endereços IP são tão importantes que eles merecem um comentário especial. Em uma rede tão grande como
+                a internet, é preciso haver uma forma de assegurar que a troca de dados vai acontecer de maneira
+                organizada e eficiente.
+
+                A solução é identificar cada um dos pontos para onde os dados podem ser enviados dentro da rede.
+
+                Essa identificação é feita por meio do endereço IP. Vale a pena lembrar que não são apenas os “pontos
+                finais” da rede que têm esse endereço. Backbones, provedores de acesso e provedores de serviço também
+                são identificados.
+
+                Também é utilizando os endereços IP que é possível, identificar o caminho que dados específicos
+                percorreram dentro da internet, realizando um rastreamento reverso. É assim que é possível localizar a
+                fonte original de um vídeo distribuído online, por exemplo.
+
+                Organização da Internet
+                Como já foi dito, a internet é uma estrutura física. Ela inclui uma variedade de componentes, incluindo
+                modens, roteadores e switches, que estão conectados por meio de cabos de cobre, fibra ótica ou mesmo
+                sinais de rádio.
+
+                Esses componentes desempenham funções específicas, mas trabalham juntos para criar os caminhos através
+                dos quais os dados são transmitidos.
+
+                Outro ponto importante é que a internet não depende de um único componente central, como um
+                supercomputador, para existir. Porém, para que seja possível utilizar a internet da maneira como fazemos
+                hoje, existem sim componentes fundamentais.
+
+                É o caso dos backbones, que já foram mencionados, e de alguns servidores raiz que traduzem nossa
+                linguagem para a linguagem dos computadores quando fazemos uma busca. Existem vários desses servidores,
+                distribuídos em 6 continentes e gerenciados por 12 instituições públicas e privadas.
+
+                Como quebrar a internet
+                Se a internet é uma estrutura física, é claro que existe uma preocupação fundamental: é possível quebrar
+                a internet?
+
+                Tecnicamente falando, seria possível, mas muito difícil.
+
+                Mesmo que alguns componentes da estrutura sejam destruídos, somente a internet de uma certa região seria
+                prejudicada, sem prejuízos em escala global.
+
+                Além disso, em geral, existe mais de um caminho que os dados podem percorrer para chegar a um mesmo
+                endereço, e a rede se adapta para buscar o caminho mais eficiente possível. Isso significa que mesmo com
+                alguns componentes fora do jogo, ainda poderia haver comunicação.
+
+                Portanto, o maior risco não está na destruição dos componentes, mas na possibilidade de ataques de
+                software. E, mesmo assim, atualmente é possível isolar os ataques e restringir seus impactos. Por
+                exemplo, se hackers tentam invadir servidores, eles podem conseguir derrubar aquele componente, mas não
+                a rede inteira.
             </p>
         </article>
     </section>
-    
 </body>
+
 </html>
