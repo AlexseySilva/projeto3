@@ -67,6 +67,11 @@ li {
     display: flex;
     align-items: center;
 }
+.titulo{
+    text-align: center;
+    background-color: #eae612;
+    border-style: double;
+}
 /*########################### Software ########################################## */
 
 
