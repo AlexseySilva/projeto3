@@ -80,6 +80,13 @@ img{
 .master{
     display: flex;
 }
+.col_esquerda{
+    margin-right: 20px;
+
+}
+.col_direita{
+    
+}
 
 
 /*########################### Software ########################################## */
