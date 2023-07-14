@@ -62,6 +62,7 @@ li {
     color: #3f0aed;
 }
 #fundo{
+    display: flex;
     align-items: center;
 }
 /*########################### Software ########################################## */
