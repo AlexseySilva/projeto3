@@ -63,15 +63,18 @@ li {
     transition: 0.5s;
     opacity: 0.7;
 }
-#fundo{
-    display: flex;
-    align-items: center;
-}
 .titulo{
     text-align: center;
     background-color: #eae612;
     border-style: double;
     border-color: #ff0000;
+}
+#fundo{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 60%;
 }
 /*########################### Software ########################################## */
 
