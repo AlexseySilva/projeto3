@@ -86,7 +86,13 @@ img{
 
 }
 .col_direita{
-    
+    margin-right: 20px;
+    text-align: justify;
+}
+.titulo_col{
+    text-align: center;
+    background-color: #00ffff;
+    color: #ff0000;
 }
 
 
